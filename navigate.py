@@ -55,8 +55,7 @@ def user_driven_navigation():
     
     time.sleep(0.5)
 
-    # Supponiamo che 'html_content' sia la variabile che contiene il codice HTML della pagina
-    html_content = driver.page_source  # Se stai usando Selenium per ottenere il contenuto della pagina
+    html_content = driver.page_source
 
     soup = BeautifulSoup(html_content, 'html.parser')
 
